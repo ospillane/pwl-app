@@ -1,0 +1,27 @@
+BACKEND
+1) Created serverless nodejs template
+
+2) Added User Pool, User Pool CLient, Identity Pool, Roles and Role Policies
+
+3) Created AWS Profile in console:
+https://serverless.com/framework/docs/providers/aws/guide/credentials/#using-aws-profiles
+
+IAM:serverless-admin
+Access Key ID: AKIAJCKJTRJGNZZFOY7Q
+Secret Access Key: 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
+
+4) Configure default AWS Profile on command line
+$serverless config credentials --provider aws --key AKIAJCKJTRJGNZZFOY7Q --secret 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
+
+5) Deploy the app  $sls deploy
+
+The backend secure API is now created :)
+
+CLIENT: https://www.youtube.com/watch?v=-ZrYlsEBLmo
+6) Install and configure AWS AMplify SDK (provides easy access to AWS Cloud services)
+import into project and set up Auth and API pulling in vars set in config.js
+$npm install
+
+7)
+
+8) 
