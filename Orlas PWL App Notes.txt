@@ -6,12 +6,9 @@ BACKEND
 3) Created AWS Profile in console:
 https://serverless.com/framework/docs/providers/aws/guide/credentials/#using-aws-profiles
 
-IAM:serverless-admin
-Access Key ID: AKIAJCKJTRJGNZZFOY7Q
-Secret Access Key: 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
 
 4) Configure default AWS Profile on command line
-$serverless config credentials --provider aws --key AKIAJCKJTRJGNZZFOY7Q --secret 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
+$serverless config credentials --provider aws --key XXXXXX --secret XXXXXXXX
 
 5) Deploy the app  $sls deploy
 
